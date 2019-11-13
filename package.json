@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/tharunkumarsk/Backbone-Base-Setup-With-Jasmine#readme",
   "dependencies": {
-    "backbone": "^1.4.0"
+    "backbone": "^1.4.0",
+    "jasmine": "^3.5.0",
+    "jasmine-core": "^3.5.0"
   }
 }
