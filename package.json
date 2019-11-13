@@ -1,0 +1,27 @@
+{
+  "name": "backbone-base-setup-with-jasmine",
+  "version": "1.0.0",
+  "description": "Back bone app to start a KATA",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tharunkumarsk/Backbone-Base-Setup-With-Jasmine.git"
+  },
+  "keywords": [
+    "Backbone",
+    "with",
+    "npm"
+  ],
+  "author": "Tharunkumar Kanthasamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tharunkumarsk/Backbone-Base-Setup-With-Jasmine/issues"
+  },
+  "homepage": "https://github.com/tharunkumarsk/Backbone-Base-Setup-With-Jasmine#readme",
+  "dependencies": {
+    "backbone": "^1.4.0"
+  }
+}
