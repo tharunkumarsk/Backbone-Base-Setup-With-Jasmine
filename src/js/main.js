@@ -7,9 +7,14 @@ var MainView = Backbone.View.extend({
     this.el = $("#root");
     $(this.el).html(template);
     this.el.find(".child").html("Text passed from main view");
-    this.render();
   },
-  render: function() {},
+  showResult: function() {
+    //just for testing purpose hardcoded the input as 5,5
+    this.el
+      .find(".result")
+      .html("Your program result is : " + this.add2Numbers(5, 5));
+  },
+
   add2Numbers: function(nbr1, nbr2) {
     return nbr1 + nbr2;
   }
