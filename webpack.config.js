@@ -7,7 +7,7 @@ module.exports = {
     port: 8080
   },
   entry: {
-    main: "./src/main.js"
+    main: "./src/index.js"
   },
   output: {
     filename: "index.js"
